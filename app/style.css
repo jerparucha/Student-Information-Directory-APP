@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+}
+
+.appHead{
+    color: white;
+    background-color: rgb(43, 121, 188);
+    width: 100%;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#student, #information, #directory {
+    padding-left: 120px;
+    margin: 0;
+    font-weight: bold;
+}
+
+
+#searchbar{
+    margin-top: 45px;    
+    margin-left: 10px;
+}
+
+#createBtn {
+    
+    margin-left: 50px;
+    margin-top: 35px;
+    background-color: #f0f0f0;
+    color: #000;
+    border-color: #000000;    
+}
+
+#saveModalBtn{
+    color: #000000;
+    background-color: transparent;
+    border-color: #000000;
+}
+
+#cancelModalBtn{
+    color: #000000;
+    background-color: transparent;
+    border-color: #000000;
+}
+
+#updateTableBtn {
+    border-color:#000000;
+    border-width: 1px;
+}
+#deleteTableBtn {
+    padding-right: 9px;
+    padding-left: 9px;
+    margin-left: 5px;
+    border-color:#000000;
+    border-width: 1px;
+}
+    
+td, th, tr{
+    border: 1px solid;
+    border-width: 1px !important;
+    border-collapse: collapse;
+  }
+
+#studentTable{
+    border-collapse: collapse;
+    width: 82%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-width: 1px;
+}
+
+tbody, td, tfoot, th, thead, tr {
+
+    border-color: inherit;
+    border-style: solid;
+}
+
+#editBtnForm{
+    margin-right: 385px;
+}
